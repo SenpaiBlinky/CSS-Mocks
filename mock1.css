@@ -1,0 +1,23 @@
+button {
+    background-color: #139CFF;
+    text-decoration: none;
+    color:white;
+    margin: 400px 400px;
+    padding: 15px 30px;
+    border-radius: 7px;
+    display: inline-block;
+    font-family: helvetica;
+    /* transition: <property> (default all) <duration> <timing-function> (default ease) <delay> (default 0); */
+    transition: background-color .5s, color .5s linear, border-radius 2s ease-out;
+    /* try playing around with the parameters in the value and see how the transition changes! */
+  }
+
+  button:hover {
+    background-color: rgb(6, 21, 233);
+    color: white;
+    border-radius: 10px;
+  }
+
+  
+
+
